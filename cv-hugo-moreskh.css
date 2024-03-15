@@ -1,0 +1,101 @@
+/* font*/
+.montserrat-<uniquifier {
+  font-family: "Montserrat", sans-serif
+  font-optical-sizing: auto
+  font-style: normal
+}
+/* Responsive screen*/
+@media screen and (max-width: 700px) {
+  hr{
+    width: 25em;
+  }
+  .titre{
+    font-size: 1em;
+  }
+  header{
+    width: 80vw;
+  }
+}
+
+
+/* Selecteur*/
+header{
+  background-color: rgba(50, 50, 220, 0.6);
+  border-radius: 50px 15px;
+  
+ 
+
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+}
+/* barre esthetique pour separer les paragraphes*/
+hr {
+  border: 10;
+  height: 10px;
+  background-color: rgba(50, 50, 220, 0.6);
+  border-radius: 5px;
+  margin-right: 1000px;
+}
+/* Footer avec le texte au centre*/
+footer{
+text-align: center;
+  background-color: rgba(50, 50, 220, 0.6);
+  border-radius: 50px 15px;
+  height: 100px;
+  
+
+
+}
+/* Les class*/
+.titre {
+  text-align: right;
+  margin-left: 50%;
+  text-shadow: 2px 2px;
+}
+/*Photo de moi*/
+.imgmoi {
+  width: 250px;
+  height: 250px;
+  float: right;
+  border-radius: 50%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+/* icon de mes infos perso*/
+.iconme, .iconadress, .icontel, .iconmail, .iconcar{
+  height: 20px;
+}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 5px;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color:black; /* White text color */
+}
+.html {width: 90%; background-color: orange;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 50%; background-color: yellow;} /* Red */
+
+/* Logo des harskills que je connais*/
+.logohtml, .logocss, .logojava{
+  width: 50px; height: 50px"
+}
+
+/*  logo footer*/
+.logogit{
+  width: 20px; height: 20px;
+}
+
+/* hover quand on passe la souris sur les liens*/
+a:hover{
+  color: blue;
+}
+
