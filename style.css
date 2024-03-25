@@ -1,0 +1,68 @@
+/* FONT ******************/
+.noto-serif jp-semibold {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/* BODY **********/
+body {
+  margin: 0;
+}
+/* TITRE ET PARAGRAPHE************/
+h1,
+h2,
+h3 {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+/* Main ***********/
+main {
+  display: flex;
+}
+/* Left Side ******************************/
+aside {
+  background-color: #323b4c;
+  width: 450px;
+  height: 1380px;
+  color: white;
+}
+.photoProfil {
+  width: 200px;
+  border-radius: 10%;
+}
+/* LOGO **********/
+img {
+  width: 5%;
+}
+/* Barre de séparation ***********/
+hr {
+  border: solid 1px black;
+}
+/* Right side *************************/
+.rightSide {
+  background-color: white;
+  color: #323b4c;
+  height: 1200px;
+  width: 1100px;
+  margin-left: 100px;
+}
+/* FOOTER *********************/
+footer {
+  background-color: #2d374c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
